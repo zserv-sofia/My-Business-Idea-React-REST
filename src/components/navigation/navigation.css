@@ -1,0 +1,43 @@
+nav {
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  background-color: brown;
+  margin: 0rem 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style: none;
+  box-sizing: border-box;
+
+  margin: 0rem;
+  padding: 0.7rem;
+  display: flex;
+}
+
+nav ul li {
+  box-sizing: border-box;
+  margin: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  width: fit-content;
+  font-size: small;
+  color: white;
+}
+.li-link {
+  text-decoration: none;
+  color: white;
+}
+
+.li-link:hover {
+  color: bisque;
+}
+
+nav ul li:hover {
+  color: bisque;
+}
+
+.li-left {
+  margin-right: auto;
+}

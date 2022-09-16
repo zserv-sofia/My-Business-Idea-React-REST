@@ -1,0 +1,22 @@
+.signUp-form {
+  width: 80%;
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.form-cont {
+  margin: 1rem 0;
+}
+
+.form-cont label,
+.form-cont input {
+  display: block;
+  width: 40%;
+  margin-bottom: 0.25rem;
+}
+
+.form-cont input {
+  border: 1px solid #a1a1a1;
+  border-radius: 2px;
+}

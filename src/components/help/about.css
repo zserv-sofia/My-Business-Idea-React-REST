@@ -1,0 +1,39 @@
+.about {
+  box-sizing: border-box;
+  background-color: beige;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.content {
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0rem 1rem 1rem 1rem;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+}
+
+.content img {
+  text-align: center;
+  height: 6rem;
+}
+
+.el-center {
+  text-align: center;
+}
+
+.about button {
+  margin: 1rem;
+}
+
+.ftr {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.ftr p {
+  color: brown;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+.idea {
+  box-sizing: border-box;
+  background-color: beige;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.idea-content {
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0rem 1rem;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 3px 3px 3px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.idea-actions {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 0rem 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.idea-actions p {
+  box-sizing: border-box;
+  margin: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  width: fit-content;
+  font-size: small;
+  color: brown;
+}
+
+.idea-actions p:hover {
+  color: coral;
+}
+
+.el-center {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.idea button {
+  margin: 1rem;
+}
