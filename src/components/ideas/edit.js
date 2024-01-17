@@ -19,7 +19,7 @@ const IdeaEdit = (props) => {
 
     console.log(enteredTitle + enteredDescription);
 
-    fetch("https://my-business-idea.herokuapp.com/rest/idea/edited-save", {
+    fetch("https://my-business-idea.onrender.com/rest/idea/edited-save", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

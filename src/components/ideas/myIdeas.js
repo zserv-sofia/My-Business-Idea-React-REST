@@ -16,7 +16,7 @@ const MyIdeas = (props) => {
   const [ideas, setIdeas] = useState([]);
 
   const btnclickhandler = () => {
-    fetch("https://my-business-idea.herokuapp.com/rest/ideas", {
+    fetch("https://my-business-idea.onrender.com/rest/ideas", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

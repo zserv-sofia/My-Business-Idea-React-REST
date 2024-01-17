@@ -20,7 +20,7 @@ const AddIdea = (props) => {
 
     console.log(enteredTitle + enteredDescription);
 
-    fetch("https://my-business-idea.herokuapp.com/rest/add-idea", {
+    fetch("https://my-business-idea.onrender.com/rest/add-idea", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

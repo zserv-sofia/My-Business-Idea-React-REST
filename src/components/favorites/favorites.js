@@ -11,7 +11,7 @@ const Favorites = (props) => {
 
   const [ideas, setIdeas] = useState([]);
 
-  fetch("https://my-business-idea.herokuapp.com/rest/favorites", {
+  fetch("https://my-business-idea.onrender.com/rest/favorites", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",

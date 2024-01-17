@@ -23,18 +23,16 @@ const About = () => {
           <div className="content">
             <br />
             <h4>
-              The My Businnes Idea is a place to store you own ideas for
-              business.
+            My Business Idea is a platform to store your unique business ideas.
             </h4>
             <h3>M.B.I.</h3>
             <h5>Main features for registered users:</h5>
 
-            <p>Add new ideas to the private list of ideas. </p>
+            <p>Add new ideas to your private list. </p>
             <p>
-              Post ideas to a public ideas list, accessible by everyone on main
-              page.
+            Post ideas to a public list, accessible to everyone on the main page.
             </p>
-            <p>Favorites.</p>
+            <p>Mark ideas as favorites.</p>
             <img src={pic} />
           </div>
         </motion.div>

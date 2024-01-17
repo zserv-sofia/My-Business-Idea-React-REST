@@ -27,7 +27,7 @@ const App = () => {
   };
 
   const getLogOut = () => {
-    fetch("https://my-business-idea.herokuapp.com/rest/auth/logout", {
+    fetch("https://my-business-idea.onrender.com/rest/auth/logout", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

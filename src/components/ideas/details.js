@@ -9,7 +9,7 @@ const Details = (props) => {
 
   const onClickDelete = () => {
     fetch(
-      `https://my-business-idea.herokuapp.com/rest/idea/delete/${props.idea.id}`,
+      `https://my-business-idea.onrender.com/rest/idea/delete/${props.idea.id}`,
       {
         method: "GET",
         headers: {
@@ -40,7 +40,7 @@ const Details = (props) => {
   const onClickPublish = () => {
     console.log(props.idea.id + " " + ctx.token);
     fetch(
-      `https://my-business-idea.herokuapp.com/rest/public/post/${props.idea.id}`,
+      `https://my-business-idea.onrender.com/rest/public/post/${props.idea.id}`,
       {
         method: "GET",
         headers: {
@@ -61,7 +61,7 @@ const Details = (props) => {
 
   const onClickRemove = () => {
     fetch(
-      `https://my-business-idea.herokuapp.com/rest/public/remove/${props.idea.id}`,
+      `https://my-business-idea.onrender.com/rest/public/remove/${props.idea.id}`,
       {
         method: "GET",
         headers: {
@@ -82,7 +82,7 @@ const Details = (props) => {
 
   const onClickAddFav = () => {
     fetch(
-      `https://my-business-idea.herokuapp.com/rest/addFav/${props.idea.id}`,
+      `https://my-business-idea.onrender.com/rest/addFav/${props.idea.id}`,
       {
         method: "GET",
         headers: {
@@ -103,7 +103,7 @@ const Details = (props) => {
 
   const onClickDelFav = () => {
     fetch(
-      `https://my-business-idea.herokuapp.com/rest/delFav/${props.idea.id}`,
+      `https://my-business-idea.onrender.com/rest/delFav/${props.idea.id}`,
       {
         method: "GET",
         headers: {

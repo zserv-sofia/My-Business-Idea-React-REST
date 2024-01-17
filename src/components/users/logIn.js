@@ -24,7 +24,7 @@ const LogIn = (props) => {
 
     console.log(enteredEmail + enteredPass);
 
-    fetch("https://my-business-idea.herokuapp.com/rest/auth/login", {
+    fetch("https://my-business-idea.onrender.com/rest/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
